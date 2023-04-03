@@ -28,7 +28,7 @@ int main() {
 		cout << "\n\tMasukan Desa :";
 		cin.getline(mhs[i].alamat.Desa,20);
 		cout << "\n\tMasukan Kota :";
-		cin.getline(mhs[i].alamat.kota,20);
+		cin.getline(mhs[i].alamat.Kota,20);
 		cout << "Masukan Umur :";
 		cin >> mhs[i].umur;
 		cin.ignore(1, '\n');
@@ -38,8 +38,8 @@ int main() {
 	{
 		cout << "\n\nNIM =" << mhs[i].NIM;
 		cout << "\nNama =" << mhs[i].Nama;
-		cout << "\nDesa =" << mhs[i].alamat.desa;
-		cout << "\nKota =" << mhs[i].alamat.kota;
+		cout << "\nDesa =" << mhs[i].alamat.Desa;
+		cout << "\nKota =" << mhs[i].alamat.Kota;
 		cout << "\nUmur =" << mhs[i].umur;
 	}
 }
