@@ -8,3 +8,11 @@ struct alamat
 
 };
 
+struct Mahasiswa
+{
+	char NIM[12];
+	char Nama[20];
+	char Alamat[30];
+	int umur;
+};
+
