@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-struct Alamat
+struct AlamatDetail
 {
 	char Desa[20];
 	char Kota[20];
